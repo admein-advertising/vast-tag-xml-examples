@@ -14,7 +14,7 @@ These sample tags are useful for:
 ## How to Use These Tags
 
 ### For testing:
-You can paste the hosted XML links into a VAST tag tester like [Admein VAST Tester](https://admein.com/vast-tester) or directly into your video player setup for debugging.
+You can paste the hosted XML links into a VAST tag tester like [AdMeIn VAST Tester](https://admein.com/vast-tester) or directly into your video player setup for debugging.
 
 ## Endpoint URLs
 Example hosted VAST XML files can be accessed via the following URLs:
@@ -22,3 +22,20 @@ Example hosted VAST XML files can be accessed via the following URLs:
 **VAST 3.0**   
  [VAST linear learn more button](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-learn-more-button.xml)  
  [VAST linear VPAID](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-vpaid.xml)   
+
+
+## Why VAST Tags Matter
+
+The VAST standard, maintained by the IAB, ensures consistent communication between ad servers and video players. By using sample VAST XML tags, you can:
+
+- Test ad playback compatibility across different players
+- Validate tracking events (impressions, quartiles, clicks)
+- Ensure ad delivery reliability before running campaigns   
+
+## AdMeIn Help Center
+
+For more information on using VAST tags and troubleshooting ad playback issues, please visit the [AdMeIn Help Center](https://admein.com/help).
+
+## Contributing
+
+We welcome contributions to this repository! If you have suggestions for new VAST XML examples or improvements to existing ones, please open an issue or submit a pull request.
