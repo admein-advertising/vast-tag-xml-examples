@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="1">
+    <InLine>
+      <AdSystem>AdMeIn Generator</AdSystem>
+      <AdTitle>Sample VAST XML Video Ad</AdTitle>
+      <Error><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Error>
+      <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=firstQuartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=complete]]></Tracking>
+              <Tracking event="mute"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=mute]]></Tracking>
+              <Tracking event="unmute"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=unmute]]></Tracking>
+              <Tracking event="rewind"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=rewind]]></Tracking>
+              <Tracking event="pause"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=pause]]></Tracking>
+              <Tracking event="resume"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=resume]]></Tracking>
+              <Tracking event="fullscreen"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=fullscreen]]></Tracking>
+              <Tracking event="creativeView"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=creativeView]]></Tracking>
+              <Tracking event="acceptInvitation"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=acceptInvitation]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://admein.io]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                <![CDATA[https://admein.io/api/stream?id=52dab5e4-0-1080p]]>
+              </MediaFile>
+            </MediaFiles>
+            <Icons>
+              <Icon program="AdMeIn" width="140" height="60" xPosition="right" yPosition="top" staticResource="http://admein.io/assets/images/sample-vast/learn-more-blue.png" creativeType="image/png">
+                <StaticResource creativeType="image/png">
+                  <![CDATA[http://admein.io/assets/images/sample-vast/learn-more-blue.png]]>
+                </StaticResource>
+                <IconViewTracking>
+                  <![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]>
+                </IconViewTracking>
+                <IconClicks>
+                  <IconClickThrough>
+                    <![CDATA[http://admein.io]]>
+                  </IconClickThrough>
+                  <IconClickTracking>
+                    <![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]>
+                  </IconClickTracking>
+                </IconClicks>
+              </Icon>
+            </Icons>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
