@@ -14,7 +14,7 @@ These sample tags are useful for:
 ## How to Use These Tags
 
 ### For testing:
-You can paste the hosted XML links into a VAST tag tester like [AdMeIn VAST Tester](https://admein.com/vast-tester) or directly into your video player setup for debugging.
+You can paste the hosted XML links into a VAST tag tester like [AdMeIn VAST Tester](https://admein.io/vast-tester) or directly into your video player setup for debugging.
 
 ## Endpoint URLs
 Example hosted VAST XML files can be accessed via the following URLs:
@@ -47,7 +47,7 @@ The VAST standard, maintained by the IAB, ensures consistent communication betwe
 
 ## AdMeIn Help Center
 
-For more information on using VAST tags and troubleshooting ad playback issues, please visit the [AdMeIn Help Center](https://admein.com/help).
+For more information on using VAST tags and troubleshooting ad playback issues, please visit the [AdMeIn Help Center](https://admein.io/help).
 
 ### Disclaimer
 ___These examples are for educational and testing purposes only. AdMeIn is not a real ad server, it is a testing tool used for testing video ads. Please ensure compliance with all relevant advertising standards and guidelines when using VAST tags in production.___
