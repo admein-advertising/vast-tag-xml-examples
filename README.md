@@ -20,20 +20,22 @@ You can paste the hosted XML links into a VAST tag tester like [AdMeIn VAST Test
 Example hosted VAST XML files can be accessed via the following URLs:
 
 **VAST 3.0**   
- [VAST linear learn more button](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-learn-more-button.xml)  
- [VAST linear VPAID](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-vpaid.xml)   
+ [VAST simple linear learn more button](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-learn-more-button-vast-3-0-sample.xml)  
+ [VAST simple interactive linear VPAID](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-vpaid-vast-3-0-sample.xml)   
 
 
 **VAST 4.0**   
  Added `<AdVerifications>` for MRC/OMID measurement.   
- [VAST OMID Verification](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.0/OMID-ad-verifications.xml)  
+ [VAST OMID Verification](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.0/OMID-ad-verifications-vast-4-0-sample.xml)  
 
 
 **VAST 4.1**   
  Added `<UniversalAdId>` requirement + better error tracking.   
- [Universal Ad ID](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.0/universal-ad-Id.xml)  
+ [Universal Ad ID](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.1/universal-ad-Id-vast-4-1-sample.xml)  
 
-
+**VAST 4.2**     
+Added `<ConditionalAd>` + improvements in `<Mezzanine>` and streaming support.   
+ [VAST Conditional Ad + Mezzanine](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.2/mezzanine-vast-4-2-sample.xml)
 
 ## Why VAST Tags Matter
 

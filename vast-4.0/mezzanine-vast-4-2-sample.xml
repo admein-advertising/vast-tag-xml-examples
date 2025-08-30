@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="4.2">
+  <Ad id="4" conditionalAd="false">
+    <InLine>
+      <AdSystem>AdMeIn Generator</AdSystem>
+      <AdTitle>Sample VAST 4.2 XML Video Ad</AdTitle>
+      <UniversalAdId idRegistry="Ad-ID" idValue="67890">Admein-4.2-Video</UniversalAdId>
+      <Error><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Error>
+      <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:25</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=start]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=complete]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://admein.io]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="854" height="480">
+                <![CDATA[https://admein.io/api/stream?id=52dab5e4-0-480p]]>
+              </MediaFile>
+              <Mezzanine delivery="progressive" type="video/mp4" width="1920" height="1080">
+                <![CDATA[https://admein.io/api/stream?id=52dab5e4-master]]>
+              </Mezzanine>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
