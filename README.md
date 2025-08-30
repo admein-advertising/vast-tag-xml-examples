@@ -21,3 +21,4 @@ Example hosted VAST XML files can be accessed via the following URLs:
 
 **VAST 3.0**
  [VAST linear learn more button](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-learn-more-button.xml)
+ [VAST linear VPAID](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-vpaid.xml)
