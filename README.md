@@ -29,6 +29,12 @@ Example hosted VAST XML files can be accessed via the following URLs:
  [VAST OMID Verification](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.0/OMID-ad-verifications.xml)  
 
 
+**VAST 4.1**   
+ Added `<UniversalAdId>` requirement + better error tracking.   
+ [VAST OMID Verification](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.0/OMID-ad-verifications.xml)  
+
+
+
 ## Why VAST Tags Matter
 
 The VAST standard, maintained by the IAB, ensures consistent communication between ad servers and video players. By using sample VAST XML tags, you can:

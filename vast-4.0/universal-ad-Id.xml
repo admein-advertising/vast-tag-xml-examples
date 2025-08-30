@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<VAST version="4.0">
-  <Ad id="2">
+<VAST version="4.1">
+  <Ad id="3">
     <InLine>
       <AdSystem>AdMeIn Generator</AdSystem>
-      <AdTitle>Sample VAST 4.0 XML Video Ad</AdTitle>
+      <AdTitle>Sample VAST 4.1 XML Video Ad</AdTitle>
+      <UniversalAdId idRegistry="Ad-ID" idValue="12345">Admein-4.1-Video</UniversalAdId>
       <Error><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Error>
       <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Impression>
       <Creatives>
         <Creative>
           <Linear>
-            <Duration>00:00:15</Duration>
+            <Duration>00:00:20</Duration>
             <TrackingEvents>
               <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=start]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=midpoint]]></Tracking>
               <Tracking event="complete"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=complete]]></Tracking>
             </TrackingEvents>
             <VideoClicks>
@@ -25,12 +27,6 @@
           </Linear>
         </Creative>
       </Creatives>
-      <AdVerifications>
-        <Verification vendor="omid">
-          <JavaScriptResource apiFramework="omid" browserOptional="true"><![CDATA[https://verification.vendor.com/omid.js]]></JavaScriptResource>
-          <VerificationParameters><![CDATA[param=value]]></VerificationParameters>
-        </Verification>
-      </AdVerifications>
     </InLine>
   </Ad>
 </VAST>

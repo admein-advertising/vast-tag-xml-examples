@@ -26,8 +26,8 @@
               <Tracking event="acceptInvitation"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=acceptInvitation]]></Tracking>
             </TrackingEvents>
             <MediaFiles>
-              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
-                <![CDATA[https://admein.io/api/stream?id=52dab5e4-0-1080p]]>
+              <MediaFile delivery="progressive" type="video/mp4" width="854" height="480">
+                <![CDATA[https://admein.io/api/stream?id=52dab5e4-0-480p]]>
               </MediaFile>
               <MediaFile delivery="progressive" type="application/javascript" apiFramework="VPAID" width="640" height="360">
                 <![CDATA[https://admein.io/assets/api-frameworks/vpaid.js]]>
