@@ -24,6 +24,11 @@ Example hosted VAST XML files can be accessed via the following URLs:
  [VAST linear VPAID](https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/linear-vpaid.xml)   
 
 
+**VAST 4.0**   
+ Added `<AdVerifications>` for MRC/OMID measurement.   
+ [VAST OMID Verification](https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.0/OMID-ad-verifications.xml)  
+
+
 ## Why VAST Tags Matter
 
 The VAST standard, maintained by the IAB, ensures consistent communication between ad servers and video players. By using sample VAST XML tags, you can:
@@ -35,6 +40,9 @@ The VAST standard, maintained by the IAB, ensures consistent communication betwe
 ## AdMeIn Help Center
 
 For more information on using VAST tags and troubleshooting ad playback issues, please visit the [AdMeIn Help Center](https://admein.com/help).
+
+### Disclaimer
+___These examples are for educational and testing purposes only. AdMeIn is not a real ad server, it is a testing tool used for testing video ads. Please ensure compliance with all relevant advertising standards and guidelines when using VAST tags in production.___
 
 ## Contributing
 
