@@ -19,7 +19,7 @@
             </VideoClicks>
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="1280" height="720">
-                <![CDATA[https://admein.io/api/stream?id=52dab5e4-1-720p]]>
+                <![CDATA[https://admein.io/api/stream?id=52dab5e4-0-480p]]>
               </MediaFile>
             </MediaFiles>
           </Linear>
