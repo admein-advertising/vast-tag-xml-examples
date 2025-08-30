@@ -10,7 +10,7 @@
       <Creatives>
         <Creative>
           <Linear>
-            <Duration>00:00:20</Duration>
+            <Duration>00:00:30</Duration>
             <TrackingEvents>
               <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=start]]></Tracking>
               <Tracking event="midpoint"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=midpoint]]></Tracking>
