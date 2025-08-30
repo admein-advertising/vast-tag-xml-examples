@@ -1,12 +1,10 @@
-# vast-tag-xml-examples
-A collection of VAST (Video Ad Serving Template) XML examples for testing video ad tags. Includes sample VAST 2.0, 3.0, and 4.0 tags for ad servers, players, and QA workflows. Useful for developers, testers, and ad ops teams validating VAST ad serving and playback
-
-## VAST XML Ad Tag Examples  
+# VAST XML Ad Tag Examples 
+A collection of VAST (Video Ad Serving Template) XML examples for testing video ad tags. Includes sample VAST 2.0, 3.0, and 4.0 tags for ad servers, players, and QA workflows. Useful for developers, testers, and ad ops teams validating VAST ad serving and playback 
 
 This repository provides example **[VAST (Video Ad Serving Template)](https://iabtechlab.com/standards/vast/)** XML ad tags that can be used for testing video advertising integrations, ad servers, and VAST players.  
 
 These sample tags are useful for:  
-- Beginners learning about VAST XML structure and elements
+- Beginners learning about **VAST XML structure and elements**
 - Developers testing **video ad integrations**  
 - Publishers verifying **ad server setups**  
 - QA engineers running **pre-roll and mid-roll ad tests**  
