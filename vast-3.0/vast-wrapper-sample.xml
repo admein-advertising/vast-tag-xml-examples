@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="wrapper-1">
+    <Wrapper followAdditionalWrappers="true" allowMultipleAds="false">
+      <AdSystem>AdMeIn VAST Generator</AdSystem>
+      <AdTitle>VAST Wrapper Sample</AdTitle>
+      <Error><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Error>
+      <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></Impression>
+      <VASTAdTagURI><![CDATA[http://admein.io/api/vast-generator?type=vast&mediaUrl=https%3A%2F%2Fadmein.io%2Fapi%2Fstream%3Fid%3D52dab5e4-0-1080p]]></VASTAdTagURI>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=wrapper_start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=wrapper_first_quartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=wrapper_midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=wrapper_third_quartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=wrapper_complete]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[http://admein.io]]></ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </Wrapper>
+  </Ad>
+</VAST>
