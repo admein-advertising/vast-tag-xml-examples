@@ -10,7 +10,7 @@
           <Linear>
             <Duration>00:00:05</Duration>
             <MediaFiles>
-              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360"><![CDATA[https://admein.io/api/stream?id=52dab5e4-0-480p]]></MediaFile>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360"><![CDATA[https://admein.io/api/stream?id=a34401be-0-480p]]></MediaFile>
             </MediaFiles>
           </Linear>
         </Creative>
