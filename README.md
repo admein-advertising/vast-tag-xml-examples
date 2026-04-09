@@ -13,10 +13,10 @@ These sample tags are useful for:
 
 ## How to Use These Tags
 
-### For testing:
+### For VAST testing and preview
 You can paste the hosted XML links into a VAST tag tester like [AdMeIn VAST Tester](https://admein.io/vast-tester) or directly into your video player setup for debugging.
 
-## VAST Tag Visualizer
+### VAST Tag Visualizer
 AdMeIn also offers a VAST visualizer and edit studio that lets you dive deep into how VAST XML is created.
 Copy one of these tags, then visit AdMeIn [VAST Generator](https://admein.io/vast-generator) and import the URL or XML you copied.
 
