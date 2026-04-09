@@ -33,7 +33,6 @@
                 <![CDATA[https://admein.io/assets/api-frameworks/vpaid.js]]>
               </MediaFile>
             </MediaFiles>
-            <AdParameters><![CDATA[{"videoUrl":"https://admein.io/api/stream?id=a34401be-0-1080p"}]]></AdParameters>
             <AdParameters>
                 <![CDATA[ {"videos":[ {"url":"https://admein.io/api/stream?id=a34401be-0-1080p","mimetype":"video/mp4"}], "overlay":"https://admein.io/assets/images/sample-vast/learn-more-blue.png"} ]]>
             </AdParameters>
