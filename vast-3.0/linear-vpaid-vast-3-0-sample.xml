@@ -35,13 +35,11 @@
             </MediaFiles>
             <VideoClicks>
               <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=clickTracking]]></ClickTracking>
+              <ClickThrough><![CDATA[https://admein.io]]></ClickThrough>
             </VideoClicks>
             <AdParameters>
                 <![CDATA[ {"videos":[ {"url":"https://admein.io/api/stream?id=a34401be-0-1080p","mimetype":"video/mp4"}], "overlay":"https://admein.io/assets/images/sample-vast/learn-more-blue.png"} ]]>
             </AdParameters>
-            <VideoClicks>
-              <ClickThrough><![CDATA[https://admein.io]]></ClickThrough>
-            </VideoClicks>
           </Linear>
         </Creative>
       </Creatives>
