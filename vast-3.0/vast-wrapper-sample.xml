@@ -2,7 +2,7 @@
 <VAST version="3.0">
   <Ad id="WR-3001">
     <Wrapper>
-      <AdSystem version="4.2">AdMeIn Wrapper</AdSystem>
+      <AdSystem>AdMeIn Wrapper</AdSystem>
       <VASTAdTagURI><![CDATA[https://admein.io/vast-templates/minimal-inline.xml]]></VASTAdTagURI>
       <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=impression]]></Impression>
       <Error><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=error]]></Error>
