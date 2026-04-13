@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="POD-A" sequence="1">
+    <InLine>
+      <AdSystem version="1.0">AdMeIn Demo ad 1</AdSystem>
+      <AdTitle>Mid-Roll Pod A</AdTitle>
+      <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=impression]]></Impression>
+      <Creatives>
+        <Creative id="pod-creative-a" sequence="1">
+          <Linear>
+            <Duration>00:00:10</Duration>
+            <MediaFiles>
+              <MediaFile bitrate="2500" delivery="progressive" height="480" type="video/mp4" width="854"><![CDATA[https://admein.io/api/stream?id=106e1e4a-0-480p]]></MediaFile>
+              <MediaFile bitrate="2500" delivery="progressive" height="720" type="video/mp4" width="1280"><![CDATA[https://admein.io/api/stream?id=106e1e4a-0-720p]]></MediaFile>
+              <MediaFile bitrate="3500" delivery="progressive" height="1080" type="video/mp4" width="1920"><![CDATA[https://admein.io/api/stream?id=106e1e4a-0-1080p]]></MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=clickTracking]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad id="POD-B" sequence="2">
+    <InLine>
+      <AdSystem version="1.0">AdMeIn Demo ad 2</AdSystem>
+      <AdTitle>Mid-Roll Pod B</AdTitle>
+      <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=impression]]></Impression>
+      <Creatives>
+        <Creative id="pod-creative-b" sequence="1">
+          <Linear>
+            <Duration>00:00:09</Duration>
+            <MediaFiles>
+              <MediaFile bitrate="2500" delivery="progressive" height="480" type="video/mp4" width="854"><![CDATA[https://admein.io/api/stream?id=ebd8fbd2-0-480p]]></MediaFile>
+              <MediaFile bitrate="2500" delivery="progressive" height="720" type="video/mp4" width="1280"><![CDATA[https://admein.io/api/stream?id=ebd8fbd2-0-720p]]></MediaFile>
+              <MediaFile bitrate="3500" delivery="progressive" height="1080" type="video/mp4" width="1920"><![CDATA[https://admein.io/api/stream?id=ebd8fbd2-0-1080p]]></MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=clickTracking]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
