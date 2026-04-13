@@ -9,6 +9,14 @@
         <Creative id="pod-creative-a" sequence="1">
           <Linear>
             <Duration>00:00:10</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=firstQuartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=complete]]></Tracking>
+              <Tracking event="creativeView"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=creativeView]]></Tracking>
+            </TrackingEvents>
             <MediaFiles>
               <MediaFile bitrate="2500" delivery="progressive" height="480" type="video/mp4" width="854"><![CDATA[https://admein.io/api/stream?id=106e1e4a-0-480p]]></MediaFile>
               <MediaFile bitrate="2500" delivery="progressive" height="720" type="video/mp4" width="1280"><![CDATA[https://admein.io/api/stream?id=106e1e4a-0-720p]]></MediaFile>
@@ -31,6 +39,14 @@
         <Creative id="pod-creative-b" sequence="1">
           <Linear>
             <Duration>00:00:09</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=firstQuartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=complete]]></Tracking>
+              <Tracking event="creativeView"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=creativeView]]></Tracking>
+            </TrackingEvents>
             <MediaFiles>
               <MediaFile bitrate="2500" delivery="progressive" height="480" type="video/mp4" width="854"><![CDATA[https://admein.io/api/stream?id=ebd8fbd2-0-480p]]></MediaFile>
               <MediaFile bitrate="2500" delivery="progressive" height="720" type="video/mp4" width="1280"><![CDATA[https://admein.io/api/stream?id=ebd8fbd2-0-720p]]></MediaFile>
