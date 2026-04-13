@@ -26,7 +26,7 @@
               <Tracking event="acceptInvitation"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=acceptInvitation]]></Tracking>
             </TrackingEvents>
             <VideoClicks>
-              <ClickThrough><![CDATA[http://localhost:3758]]></ClickThrough>
+              <ClickThrough><![CDATA[https://admein.io]]></ClickThrough>
               <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg]]></ClickTracking>
             </VideoClicks>
             <MediaFiles>
@@ -34,10 +34,10 @@
             </MediaFiles>
             <Icons>
               <Icon height="60" program="AdMeIn" width="140" xPosition="right" yPosition="top">
-                <StaticResource creativeType="image/png"><![CDATA[http://localhost:3758/assets/images/sample-vast/learn-more-blue.png]]></StaticResource>
+                <StaticResource creativeType="image/png"><![CDATA[https://admein.io/assets/images/sample-vast/learn-more-blue.png]]></StaticResource>
                 <IconViewTracking>https://admein.io/assets/images/sample-vast/1x1.jpg</IconViewTracking>
                 <IconClicks>
-                  <IconClickThrough>http://localhost:3758</IconClickThrough>
+                  <IconClickThrough>https://admein.io</IconClickThrough>
                   <IconClickTracking>https://admein.io/assets/images/sample-vast/1x1.jpg</IconClickTracking>
                 </IconClicks>
               </Icon>
@@ -47,18 +47,18 @@
         <Creative>
           <CompanionAds>
             <Companion height="90" id="companion-728x90" width="728">
-              <IFrameResource><![CDATA[http://localhost:3758/assets/companions/728x90.html]]></IFrameResource>
+              <IFrameResource><![CDATA[https://admein.io/assets/companions/728x90.html]]></IFrameResource>
               <TrackingEvents>
-                <Tracking event="creativeView"><![CDATA[http://localhost:3758?event=companion_view&size=728x90]]></Tracking>
+                <Tracking event="creativeView"><![CDATA[https://admein.io?event=companion_view&size=728x90]]></Tracking>
               </TrackingEvents>
-              <CompanionClickThrough><![CDATA[http://localhost:3758?companion=728x90]]></CompanionClickThrough>
+              <CompanionClickThrough><![CDATA[https://admein.io?companion=728x90]]></CompanionClickThrough>
             </Companion>
             <Companion height="250" id="companion-300x250" width="300">
-              <IFrameResource><![CDATA[http://localhost:3758/assets/companions/300x250-2.html]]></IFrameResource>
+              <IFrameResource><![CDATA[https://admein.io/assets/companions/300x250-2.html]]></IFrameResource>
               <TrackingEvents>
-                <Tracking event="creativeView"><![CDATA[http://localhost:3758?event=companion_view&size=300x250-2]]></Tracking>
+                <Tracking event="creativeView"><![CDATA[https://admein.io?event=companion_view&size=300x250-2]]></Tracking>
               </TrackingEvents>
-              <CompanionClickThrough><![CDATA[http://localhost:3758?companion=300x250]]></CompanionClickThrough>
+              <CompanionClickThrough><![CDATA[https://admein.io?companion=300x250]]></CompanionClickThrough>
             </Companion>
           </CompanionAds>
         </Creative>
