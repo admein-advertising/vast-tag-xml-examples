@@ -27,6 +27,7 @@
             </TrackingEvents>
             <VideoClicks>
               <ClickThrough><![CDATA[http://admein.io]]></ClickThrough>
+              <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=clickTracking]]></ClickTracking>
             </VideoClicks>
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="854" height="480">
