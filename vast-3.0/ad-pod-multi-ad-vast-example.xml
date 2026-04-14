@@ -24,6 +24,7 @@
             </MediaFiles>
             <VideoClicks>
               <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=clickTracking]]></ClickTracking>
+              <ClickThrough><![CDATA[https://admein.io]]></ClickThrough>
             </VideoClicks>
           </Linear>
         </Creative>
@@ -54,6 +55,7 @@
             </MediaFiles>
             <VideoClicks>
               <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=clickTracking]]></ClickTracking>
+              <ClickThrough><![CDATA[https://admein.io]]></ClickThrough>
             </VideoClicks>
           </Linear>
         </Creative>
