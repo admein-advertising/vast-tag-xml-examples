@@ -2,7 +2,7 @@
 <vmap:VMAP xmlns:vmap="http://www.iab.net/vmap-1.0" version="1.0">
   <vmap:AdBreak breakId="ad-me-in-001" breakType="linear" timeOffset="start">
     <vmap:AdSource allowMultipleAds="false" followRedirects="true" id="1">
-      <vmap:AdTagURI templateType="vast4"><![CDATA[https://admein.io/vast-templates/minimal-inline.xml]]></vmap:AdTagURI>
+      <vmap:AdTagURI templateType="vast4"><![CDATA[https://admein-advertising.github.io/vast-tag-xml-examples/vast-4.0/minimal-inline.xml]]></vmap:AdTagURI>
     </vmap:AdSource>
   </vmap:AdBreak>
   <vmap:AdBreak breakId="ad-me-in-002" breakType="linear" timeOffset="00:00:20">
