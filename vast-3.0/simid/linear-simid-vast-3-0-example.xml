@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad id="simid-1-1-example">
+    <InLine>
+      <AdSystem>AdMeIn</AdSystem>
+      <AdTitle>SIMID 1.1.0 Example</AdTitle>
+      <Description><![CDATA[SIMID 1.1.0 example based on IAB compliance guidelines]]></Description>
+      <Impression><![CDATA[https://example.com/track/impression]]></Impression>
+      <Error><![CDATA[https://example.com/track/error?[ERRORCODE]]]></Error>
+      <Creatives>
+        <Creative id="simid-creative-1">
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://example.com/track/start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://example.com/track/firstQuartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://example.com/track/midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://example.com/track/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://example.com/track/complete]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://example.com/click]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <InteractiveCreativeFile apiFramework="SIMID" type="text/html"><![CDATA[https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/simid/simid-creative.html]]></InteractiveCreativeFile>
+              <MediaFile bitrate="900" delivery="progressive" height="720" type="video/mp4" width="1280"><![CDATA[https://admein.io/api/stream?id=a34401be-0-720p]]></MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
