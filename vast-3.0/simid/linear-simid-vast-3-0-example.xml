@@ -5,21 +5,22 @@
       <AdSystem>AdMeIn</AdSystem>
       <AdTitle>SIMID 1.1.0 Example</AdTitle>
       <Description><![CDATA[SIMID 1.1.0 example based on IAB compliance guidelines]]></Description>
-      <Impression><![CDATA[https://example.com/track/impression]]></Impression>
-      <Error><![CDATA[https://example.com/track/error?[ERRORCODE]]]></Error>
+      <Impression><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=impression]]></Impression>
+      <Error><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=error&[ERRORCODE]]]></Error>
       <Creatives>
         <Creative id="simid-creative-1">
           <Linear>
             <Duration>00:00:30</Duration>
             <TrackingEvents>
-              <Tracking event="start"><![CDATA[https://example.com/track/start]]></Tracking>
-              <Tracking event="firstQuartile"><![CDATA[https://example.com/track/firstQuartile]]></Tracking>
-              <Tracking event="midpoint"><![CDATA[https://example.com/track/midpoint]]></Tracking>
-              <Tracking event="thirdQuartile"><![CDATA[https://example.com/track/thirdQuartile]]></Tracking>
-              <Tracking event="complete"><![CDATA[https://example.com/track/complete]]></Tracking>
+              <Tracking event="start"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=firstQuartile]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=complete]]></Tracking>
             </TrackingEvents>
             <VideoClicks>
-              <ClickThrough><![CDATA[https://example.com/click]]></ClickThrough>
+              <ClickThrough><![CDATA[https://admein.io]]></ClickThrough>
+              <ClickTracking><![CDATA[https://admein.io/assets/images/sample-vast/1x1.jpg?event=clickTracking]]></ClickTracking>
             </VideoClicks>
             <MediaFiles>
               <InteractiveCreativeFile apiFramework="SIMID" type="text/html"><![CDATA[https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/simid/simid-creative.html]]></InteractiveCreativeFile>
