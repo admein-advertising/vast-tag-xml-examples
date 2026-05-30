@@ -4,7 +4,7 @@
     <InLine>
       <AdSystem>AdMeIn</AdSystem>
       <AdTitle>SIMID 1.1.0 Example</AdTitle>
-      <Description><![CDATA[SIMID 1.1.0 example based on IAB README sample.]]></Description>
+      <Description><![CDATA[SIMID 1.1.0 example based on IAB compliance guidelines]]></Description>
       <Impression><![CDATA[https://example.com/track/impression]]></Impression>
       <Error><![CDATA[https://example.com/track/error?[ERRORCODE]]]></Error>
       <Creatives>
@@ -22,7 +22,7 @@
               <ClickThrough><![CDATA[https://example.com/click]]></ClickThrough>
             </VideoClicks>
             <MediaFiles>
-              <InteractiveCreativeFile apiFramework="SIMID" type="text/html"><![CDATA[https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/simid-creative.html]]></InteractiveCreativeFile>
+              <InteractiveCreativeFile apiFramework="SIMID" type="text/html"><![CDATA[https://admein-advertising.github.io/vast-tag-xml-examples/vast-3.0/simid/simid-creative.html]]></InteractiveCreativeFile>
               <MediaFile bitrate="900" delivery="progressive" height="720" type="video/mp4" width="1280"><![CDATA[https://admein.io/api/stream?id=a34401be-0-720p]]></MediaFile>
             </MediaFiles>
           </Linear>
