@@ -169,6 +169,11 @@
         color: #e2e8f0;
       }
 
+      .dialog-body a {
+        color: #fde047;
+        text-decoration: none;
+      }
+
       .dialog-actions {
         margin-top: 1rem;
         display: flex;
@@ -209,7 +214,9 @@
       <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
         <h2 class="dialog-title" id="dialog-title">Learn More</h2>
         <div class="dialog-body">
-          <p>This is an example SIMID creative built using the SIMID 1.1 protocol. It includes a play/pause toggle button and a "Learn More" button that opens this dialog.</p>
+          <p>This is an example SIMID creative built using the SIMID 1.1 protocol.</p>
+          <p>It includes a play/pause toggle button and a "Learn More" button that opens this dialog and pauses the ad.</p>
+          <p>Read more about SIMID protocol <a href="https://admein.io/blog/8/what-is-simid-and-omid" target="_blank" rel="noopener noreferrer">here</a></p>
         </div>
         <div class="dialog-actions">
           <button class="dialog-close" data-dialog-close>Close</button>
